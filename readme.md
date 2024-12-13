@@ -122,13 +122,13 @@ target_model.fit(X_subset,Y_subset, xgb_model=model_Source.get_booster())
 
 提取信号数据集：
 
-**C(Tx_ai，Rx_a)**为域A本地设备信号
+C(Tx_ai，Rx_a)为域A本地设备信号
 
-**C(Tx_bi，Rx_b)**为域B本地设备信号
+C(Tx_bi，Rx_b)为域B本地设备信号
 
-**C(Tx_ai，Rx_b)**为域B收到的来自域A设备的信号
+C(Tx_ai，Rx_b)为域B收到的来自域A设备的信号
 
-**C(Tx_ai，Rx_a)，C(Tx_ai，Rx_b)**体现跨域认证时的信号差异
+C(Tx_ai，Rx_a)，C(Tx_ai，Rx_b)体现跨域认证时的信号差异
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/49662704/1734094851874-84ed1ba5-c9d8-4e0c-b2ef-00ea513161e6.png)
 
