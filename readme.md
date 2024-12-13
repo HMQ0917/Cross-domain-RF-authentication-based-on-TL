@@ -122,18 +122,18 @@ target_model.fit(X_subset,Y_subset, xgb_model=model_Source.get_booster())
 
 提取信号数据集：
 
-**C(Tx_ai****，****Rx_a)**为域A本地设备信号
+**C(Tx_ai，Rx_a)**为域A本地设备信号
 
-**C(Tx_****b****i****，****Rx_****b****)**为域B本地设备信号
+**C(Tx_bi，Rx_b)**为域B本地设备信号
 
-**C(Tx_****a****i****，****Rx_b)**为域B收到的来自域A设备的信号
+**C(Tx_ai，Rx_b)**为域B收到的来自域A设备的信号
 
-**C(Tx_ai****，****Rx_a)****，****C(Tx_****a****i****，****Rx_b)**体现跨域认证时的信号差异
+**C(Tx_ai，Rx_a)，C(Tx_ai，Rx_b)**体现跨域认证时的信号差异
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/49662704/1734094851874-84ed1ba5-c9d8-4e0c-b2ef-00ea513161e6.png)
 
 #### 2）本地模型训练
-训练数据：**C(Tx_a1****，****Rx_a),C(Tx_a2****，****Rx_a),...,C(Tx_an****，****Rx_a)**
+训练数据：**C(Tx_a1,Rx_a),C(Tx_a2,Rx_a),...,C(Tx_an,Rx_a)**
 
 实现一个分类器对域A设备进行识别（目前**闭集任务**）
 
