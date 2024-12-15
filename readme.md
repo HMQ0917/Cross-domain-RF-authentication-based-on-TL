@@ -158,6 +158,6 @@ C(Tx_ai，Rx_a)，C(Tx_ai，Rx_b)体现跨域认证时的信号差异
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/49662704/1734095465589-a923fa35-732c-41f2-8d0b-01bcb7b2c148.png)
 
-对信号C(Tx_a1，Rx_b),C(Tx_a2，Rx_b),...,C(Tx_an，Rx_b)进行识别，准确率：
+对信号C(Tx_a1，Rx_b),C(Tx_a2，Rx_b),...,C(Tx_an，Rx_b)进行识别，准确率：**0.84375**
 
 ## ![](https://cdn.nlark.com/yuque/0/2024/png/49662704/1734095499631-0d56c34c-0946-4d39-864a-86fef6466892.png)
